@@ -12,8 +12,8 @@ func SetupRoutes(app *fiber.App) {
 	*/
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.Render("index", fiber.Map{
-			"title": "Welcome to Sewa Otomotif!",
-		})
+			"title": "Welcome to Awesome Fiber App!",
+		}, "layouts/main-layout")
 	})
 
 	/**

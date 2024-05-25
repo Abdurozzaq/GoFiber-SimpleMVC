@@ -18,6 +18,9 @@ func main() {
 		Views: engine,
 	})
 
+	// Initialize public folder for static files
+	app.Static("/", "./src/public")
+
 	// Initialize Database Connection
 	database.ConnectDB()
 
