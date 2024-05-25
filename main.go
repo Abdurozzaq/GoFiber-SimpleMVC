@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Abdurozzaq/fiber-sewa-otomotif/src/database"
-	"github.com/Abdurozzaq/fiber-sewa-otomotif/src/router"
+	"github.com/Abdurozzaq/GoFiber-SimpleMVC/src/database"
+	"github.com/Abdurozzaq/GoFiber-SimpleMVC/src/router"
 	"log"
 
 	"github.com/gofiber/fiber/v2"

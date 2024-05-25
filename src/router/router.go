@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/Abdurozzaq/fiber-sewa-otomotif/src/controllers"
+	"github.com/Abdurozzaq/GoFiber-SimpleMVC/src/controllers"
 	"github.com/gofiber/fiber/v2"
 )
 

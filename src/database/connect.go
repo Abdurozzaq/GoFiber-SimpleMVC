@@ -2,12 +2,12 @@ package database
 
 import (
 	"fmt"
-	"github.com/Abdurozzaq/fiber-sewa-otomotif/src/models"
+	"github.com/Abdurozzaq/GoFiber-SimpleMVC/src/models"
 	"log"
 	"strconv"
 
-	"github.com/Abdurozzaq/fiber-sewa-otomotif/src/config"
-	_ "github.com/Abdurozzaq/fiber-sewa-otomotif/src/models"
+	"github.com/Abdurozzaq/GoFiber-SimpleMVC/src/config"
+	_ "github.com/Abdurozzaq/GoFiber-SimpleMVC/src/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

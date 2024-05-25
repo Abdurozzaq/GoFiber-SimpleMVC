@@ -1,4 +1,4 @@
-module github.com/Abdurozzaq/fiber-sewa-otomotif
+module github.com/Abdurozzaq/GoFiber-SimpleMVC
 
 go 1.22.2
 
