@@ -6,6 +6,7 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/template/html/v2"
 )
 
@@ -17,6 +18,9 @@ func main() {
 	app := fiber.New(fiber.Config{
 		Views: engine,
 	})
+
+	// Initialize default config
+	app.Use(logger.New())
 
 	// Initialize public folder for static files
 	app.Static("/", "./src/public")
